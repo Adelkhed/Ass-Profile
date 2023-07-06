@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.navbar{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  font-size: 1.5rem;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+
+}
+
+.navbar a{
+  
+  transition: 1s;
+}
+
+.navbar a:hover{
+ color: #76d0e9;
+ 
+}
+.navlink a.active{
+  color:orange;
+ }
+
+.nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  
+}
+.navlink{
+  display: flex;
+  color: rgb(17, 47, 73);
+  justify-content: space-around;
+  width: 80%
+
+
+}
+.navlink a {
+  color: white;
+  font-size: 1.5rem;
+}
+.btn{
+  color: aliceblue;
+  background-color: rgb(74, 137, 201);
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+
+
+.user-card, .card, .education,.connect1, .connect2 {
+  margin-top: 10px;
+  margin-left: 100px;
+  background-color:white;
+  border: 1px solid #736e81;
+  
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+.connect1, .connect2{
+  width: 300px;
+  font-size: 1.5rem; 
+}
+.connect1 p, .connect2 p{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  word-spacing: 10px;
+  align-content: center;
+  
+}
+.photo{
+
+  height: 50px;
+  border-radius: 50%;
+  
+}
+.header-connect{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 20px;
+  background-color: #0e0101;
+  color: #fff;
+  font-size: 1rem;
+
+} 
+.header-connect div{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border:white solid 2px;
+  border-radius: 15px;
+
+}
+
+
+.icona{
+  height: 15px;
+  width: 15px;
+}
+.user-card{
+  height: 600px;
+}
+.education{
+  height: 230px;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+}
+#mainpage{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ed{
+  background-color: #000000;
+  color: #ffffff;
+  height: 60px;
+  
+}
+.education p,h2{
+  margin: 20px;
+}
+.card-header {
+  background-color: hsl(220, 70%, 28%);
+  height: 150px;
+  margin-bottom: 70px;
+}
+
+.card-body {
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  padding: 50px;
+}
+
+
+
+.image {
+  border-radius: 50%;
+  background-color: #fff;
+  border: #fff solid;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.icons {
+  height: 20px;
+}
+
+.card-body h1,h3,p {
+    margin: 30px;
+}
+
+
+.header {
+  background-color: #111010;
+  padding: 20px;
+  color: #ffffff;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
